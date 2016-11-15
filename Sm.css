@@ -1,0 +1,73 @@
+h1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    
+}
+
+h2 {
+    color: sienna;
+    font-family: 'Lobster', cursive;
+}
+
+h3 {
+    font-family: 'Lobster', cursive;
+}
+body {
+    background-image: url("/background.jpg.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+
+}
+p{
+    font-family: sans-serif;
+}
+.box {
+    background: yellow;
+    border-radius: 15px 50px;
+    transition-property: background;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+    height: 55px;
+    width: 300px
+}
+
+.foo{
+    border: 25px black;
+    width: 600px;
+    border-radius: 25px;
+    }
+.foo2{
+    border: 15px black;
+    width: 500px;
+    border-radius: 50px 15px;
+    }
+
+.black{
+    background: black
+}
+.bisque{
+    background: bisque;
+}
+.new{
+    background: #56FaFF;
+}
+
+.box:hover {
+    background: aqua;
+}
+
+ol{
+    font-size-adjust: auto;
+    font-family: serif;
+    color: black
+}
+.foo3{
+    border: 15px black;
+    width: 700px;
+    border-radius: 50px;
+}
+.main{
+    width: 1000px;
+    background: lightblue;
+}
